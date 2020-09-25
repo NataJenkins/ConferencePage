@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(./fonts/Cocogoose-Light.ttf);
+}
+
+.gray-navbar {
+  background-color: #272a31;
+}
+
+.gray-navbar ul {
+  list-style: none;
+}
+
+.gray-navbar ul a {
+  color: #d3d3d3;
+}
+
+.light-navbar {
+  background-color: #d3d3d3;
+}
+
+.light-navbar ul {
+  list-style: none;
+}
+
+.light-navbar ul a {
+  color: #272a31;
+}
+
+.light-navbar ul a span {
+  background-color: #ec5242;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=index.css.map */

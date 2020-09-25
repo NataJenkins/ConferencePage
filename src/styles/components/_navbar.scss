@@ -1,0 +1,33 @@
+@import "../variables";
+@import"../fonts";
+
+
+.gray-navbar {
+    background-color: $gray;
+
+    ul {
+        list-style: none;
+
+        a {
+            color: $light;
+        }
+    }
+
+}
+
+.light-navbar {
+    background-color: $light;
+
+    ul {
+        list-style: none;
+
+        a {
+            color: $gray;
+
+            span {
+                background-color: $orange;
+                border-radius: 10px;
+            }
+        }
+    }
+}
