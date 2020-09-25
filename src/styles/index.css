@@ -5,7 +5,12 @@
 
 @font-face {
   font-family: Cocogoose-bold;
-  src: url(./fonts/Cocogoose-Pro.ttf);
+  src: url(./fonts/Cocogoose-pro.ttf);
+}
+
+.kanit {
+  font-family: 'Kanit',
+    sans-serif;
 }
 
 .lato {
@@ -37,6 +42,11 @@
   color: #272a31;
 }
 
+.light-gray {
+  color: #494a4d;
+}
+
+
 .light {
   color: #d3d3d3;
 }
@@ -54,7 +64,6 @@ ul {
 }
 
 .light-navbar {
-  background-color: #d3d3d3;
   height: 70px;
 }
 
@@ -66,4 +75,31 @@ ul {
   border-radius: 10px;
 }
 
-/*# sourceMappingURL=index.css.map */
+/* MAIN */
+.main-text {
+  font-size: 10vw;
+  background-image: url(../assets/text-background.jpg);
+
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.date {
+  font-size: 6vw;
+}
+
+/* .container img {
+  position: absolute;
+  background-color: rgba(255, 68, 0, 0.753);
+  z-index: 1;
+}
+
+.container div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 68, 0, 0.575);
+  z-index: 1;
+} */
