@@ -103,3 +103,17 @@ ul {
   background-color: rgba(255, 68, 0, 0.575);
   z-index: 1;
 } */
+
+/* AMENITIE */
+.amenities .card {
+  background-color: rgba(255, 255, 255, 0.253);
+
+}
+
+.amenities .card .fas {
+  font-size: 23px;
+}
+
+.amenities .card .fab {
+  font-size: 23px;
+}
