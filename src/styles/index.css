@@ -3,24 +3,59 @@
   src: url(./fonts/Cocogoose-Light.ttf);
 }
 
-.gray-navbar {
+@font-face {
+  font-family: Cocogoose-bold;
+  src: url(./fonts/Cocogoose-Pro.ttf);
+}
+
+.lato {
+  font-family: 'Lato',
+    sans-serif;
+}
+
+.cocogoose {
+  font-family: Cocogoose;
+}
+
+.cocogoose-bold {
+  font-family: Cocogoose-bold;
+}
+
+.bc-gray {
   background-color: #272a31;
 }
 
-.gray-navbar ul {
+.bc-light {
+  background-color: #d3d3d3;
+}
+
+.bc-orange {
+  background-color: #ec5242;
+}
+
+.gray {
+  color: #272a31;
+}
+
+.light {
+  color: #d3d3d3;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+ul {
   list-style: none;
 }
 
-.gray-navbar ul a {
-  color: #d3d3d3;
+.nav-logo {
+  font-size: 30px;
 }
 
 .light-navbar {
   background-color: #d3d3d3;
-}
-
-.light-navbar ul {
-  list-style: none;
+  height: 70px;
 }
 
 .light-navbar ul a {
@@ -28,7 +63,7 @@
 }
 
 .light-navbar ul a span {
-  background-color: #ec5242;
   border-radius: 10px;
 }
+
 /*# sourceMappingURL=index.css.map */
