@@ -55,6 +55,17 @@
   color: #ec5242;
 }
 
+.w-90 {
+  width: 90%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+/* END OF GLOBAL VARIABLES */
+
+
 ul {
   list-style: none;
 }
@@ -116,4 +127,45 @@ ul {
 
 .amenities .card .fab {
   font-size: 23px;
+}
+
+/* Featured Bands */
+.img-container {
+  height: 150px;
+  width: 150px;
+}
+
+.pattern {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.band {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Footer */
+.sponsor {
+  width: 200px;
+  height: 50px;
+  background-color: purple;
+}
+
+footer ul {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+footer li {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
