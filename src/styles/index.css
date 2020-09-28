@@ -63,6 +63,14 @@
   width: 60%;
 }
 
+.br-20 {
+  border-radius: 20px;
+}
+
+.white {
+  color: white;
+}
+
 /* END OF GLOBAL VARIABLES */
 
 
@@ -130,6 +138,7 @@ ul {
 }
 
 /* Featured Bands */
+
 .img-container {
   height: 150px;
   width: 150px;
@@ -153,10 +162,10 @@ ul {
 
 /* Footer */
 .sponsor {
-  width: 200px;
   height: 50px;
-  background-color: purple;
+  margin-left: 10px;
 }
+
 
 footer ul {
   margin-top: 50px;
@@ -168,4 +177,16 @@ footer li {
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+
+/* Tickets */
+
+.tickets {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.co-btn {
+  border: none;
 }
