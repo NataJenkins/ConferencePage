@@ -1,6 +1,6 @@
 # Newsweek-Responsive-Clone
 
-![screenshot](assets/images/preview.png)
+![screenshot](/src/assets/preview.jpg)
 
 Conference Page builded using Bootstrap, html and css 
 
