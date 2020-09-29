@@ -1,4 +1,4 @@
-# Newsweek-Responsive-Clone
+# Conference page capstone
 
 ![screenshot](/src/assets/preview.jpg)
 
