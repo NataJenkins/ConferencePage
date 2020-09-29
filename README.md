@@ -28,7 +28,7 @@ Conference Page builded using Bootstrap, html and css
 
 ## Authors
 
-👤 **Alan Soto** 
+👤 **Natalia Macias** 
 
 - Github: [@NataJenkins](https://github.com/NataJenkins)
 - Twitter: [@NataJenkins](https://twitter.com/NataJenkins)
