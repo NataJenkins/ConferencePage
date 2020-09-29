@@ -1,4 +1,4 @@
-# Newsweek-Responsive-Clone
+# Conference Page
 
 ![screenshot](/src/assets/preview.jpg)
 
