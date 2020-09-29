@@ -9,12 +9,14 @@
 }
 
 .kanit {
-  font-family: 'Kanit',
+  font-family:
+    'Kanit',
     sans-serif;
 }
 
 .lato {
-  font-family: 'Lato',
+  font-family:
+    'Lato',
     sans-serif;
 }
 
@@ -46,7 +48,6 @@
   color: #494a4d;
 }
 
-
 .light {
   color: #d3d3d3;
 }
@@ -73,7 +74,6 @@
 
 /* END OF GLOBAL VARIABLES */
 
-
 ul {
   list-style: none;
 }
@@ -98,7 +98,6 @@ ul {
 .main-text {
   font-size: 10vw;
   background-image: url(../assets/text-background.jpg);
-
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -109,24 +108,9 @@ ul {
   font-size: 6vw;
 }
 
-/* .container img {
-  position: absolute;
-  background-color: rgba(255, 68, 0, 0.753);
-  z-index: 1;
-}
-
-.container div {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(255, 68, 0, 0.575);
-  z-index: 1;
-} */
-
 /* AMENITIE */
 .amenities .card {
   background-color: rgba(255, 255, 255, 0.253);
-
 }
 
 .amenities .card .fas {
@@ -166,7 +150,6 @@ ul {
   margin-left: 10px;
 }
 
-
 footer ul {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -189,4 +172,9 @@ footer li {
 
 .co-btn {
   border: none;
+}
+
+/* about */
+.about {
+  height: 602px;
 }
