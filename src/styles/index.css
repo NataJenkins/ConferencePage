@@ -21,11 +21,11 @@
 }
 
 .cocogoose {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
 .cocogoose-bold {
-  font-family: Cocogoose-bold;
+  font-family: Cocogoose-bold, sans-serif;
 }
 
 .bc-gray {
@@ -99,7 +99,6 @@ ul {
   font-size: 10vw;
   background-image: url(../assets/text-background.jpg);
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -178,7 +177,7 @@ footer li {
   display: flex;
   justify-content: center;
   padding: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 /* about */
@@ -186,7 +185,7 @@ footer li {
   height: 602px;
 }
 
-@media screen and (max-width:432px) {
+@media screen and (max-width: 432px) {
   .amenities-text {
     margin-left: auto;
     margin-right: auto;
