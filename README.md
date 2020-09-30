@@ -2,7 +2,13 @@
 
 ![screenshot](/src/assets/preview.jpg)
 
-Conference Page builded using Bootstrap, html and css 
+Tablet
+![screenshot](/src/assets/previewTablet.jpg)
+
+Mobile
+![screenshot](/src/assets/previewMobile.jpg)
+
+Conference Page builded using Bootstrap, html and css for demonstration of mastering HTML&CSS Microverse section.
 
 ## Built With
 
@@ -39,4 +45,4 @@ Conference Page builded using Bootstrap, html and css
 - Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Website inspired on Cindy Shin CC Global Submmit 2015
