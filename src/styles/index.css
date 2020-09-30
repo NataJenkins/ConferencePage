@@ -178,3 +178,10 @@ footer li {
 .about {
   height: 602px;
 }
+
+@media screen and (max-width:432px) {
+  .amenities-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
