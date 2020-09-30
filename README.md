@@ -2,7 +2,7 @@
 
 ![screenshot](/src/assets/preview.jpg)
 
-Tablet
+Tablet                                                                                                
 ![screenshot](/src/assets/previewTablet.jpg)
 
 Mobile                                                                                                                       
