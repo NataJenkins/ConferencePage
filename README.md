@@ -5,7 +5,7 @@
 Tablet
 ![screenshot](/src/assets/previewTablet.jpg)
 
-Mobile
+Mobile                                                                                                                       
 ![screenshot](/src/assets/previewMobile.jpg)
 
 Conference Page builded using Bootstrap, html and css for demonstration of mastering HTML&CSS Microverse section.
