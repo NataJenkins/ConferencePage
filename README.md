@@ -1,12 +1,6 @@
 # Conference page capstone
 
-![screenshot](/src/assets/preview.jpg)
-
-Tablet                                                                                                
-![screenshot](/src/assets/previewTablet.jpg)
-
-Mobile                                                                                                                       
-![screenshot](/src/assets/previewMobile.jpg)
+![screenshot](/src/assets/mockup.jpg)
 
 Conference Page builded using Bootstrap, html and css for demonstration of mastering HTML&CSS Microverse section.
 
