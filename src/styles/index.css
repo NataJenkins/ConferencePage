@@ -94,6 +94,10 @@ ul {
   border-radius: 10px;
 }
 
+.gt-btn {
+  padding: 5px 10px;
+}
+
 /* MAIN */
 .main-text {
   font-size: 10vw;
@@ -105,6 +109,8 @@ ul {
 
 .date {
   font-size: 6vw;
+  display: flex;
+  justify-content: right;
 }
 
 /* AMENITIE */
@@ -153,6 +159,7 @@ footer ul {
   margin-top: 50px;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  display: flex;
 }
 
 footer li {
@@ -170,6 +177,7 @@ footer li {
 
 .co-btn {
   border: none;
+  padding: 10px 20px;
 }
 
 .tickets-text {
