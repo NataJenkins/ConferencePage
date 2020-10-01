@@ -155,9 +155,13 @@ ul {
   margin-left: 10px;
 }
 
+.footer-logo {
+  font-size: 2rem;
+}
+
 footer ul {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   flex-wrap: wrap;
   padding-left: 0;
   display: flex;
