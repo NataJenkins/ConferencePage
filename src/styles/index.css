@@ -159,6 +159,7 @@ footer ul {
   margin-top: 50px;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  padding-left: 0;
   display: flex;
 }
 
@@ -187,9 +188,13 @@ footer li {
   margin-bottom: 0;
 }
 
+.tickets-table {
+  padding: 3rem 5rem;
+}
+
 /* about */
 .about {
-  height: 602px;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 432px) {
@@ -197,4 +202,15 @@ footer li {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .sponsor {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+  }
+
+  .tickets-table {
+    padding: 0;
+  }
+
 }
