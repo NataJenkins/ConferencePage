@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Kanit:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/d6bf1861cd.js" crossorigin="anonymous"></script>
+    <title>Tickets</title>
+</head>
+
+
+<body>
+    <header>
+        <!-- LG NAV -->
+        <nav class="d-none d-lg-block">
+            <div class="gray-navbar bc-gray col mb-0">
+                <ul class="d-flex justify-content-end mb-0">
+                    <li><a class="nav-link light active" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="nav-link light" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="nav-link light lato" href="#">English</a></li>
+                    <li><a class="nav-link light lato" href="#">MyPage</a></li>
+                    <li><a class="nav-link light lato" href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="light-navbar col mt-0 d-flex align-items-center justify-content-between">
+                <div class="nav-logo cocogoose-bold"><a class="font-weight-bold ml-3 gray" href="./index.html">MUSIC</a>
+                </div>
+                <ul class="d-flex justify-content align-items-center m-0">
+                    <li><a class="nav-link gray lato active" href="./about.html">About</a></li>
+                    <li><a class="nav-link gray lato" href="#">Program</a></li>
+                    <li><a class="nav-link gray lato" href="#">Sponsor</a></li>
+                    <li><a class="nav-link gray lato" href="#">News</a></li>
+                    <li><a class="nav-link gray lato" href="./tickets.html"><span class="gt-btn bc-orange">Get
+                                Tickets</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <M NAV -->
+        <nav class="d-lg-none">
+            <div class="light-navbar col mt-0 d-flex align-items-center justify-content-between">
+                <div class="nav-logo cocogoose-bold"><a class="font-weight-bold ml-3 gray" href="./index.html">MUSIC</a>
+                </div>
+                <ul class="d-flex justify-content align-items-center m-0">
+                    <li><a class="nav-link gray lato" href="./tickets.html"><span class="px-2 py-1 bc-orange">Get
+                                Tickets</span></a></li>
+                    <li><a class="nav-link gray lato" href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Tickets form -->
+    <main>
+        <div class="tickets-container bc-light overflow-hidden">
+            <div class="tickets">
+                <h1 class="cocogoose-bold d-flex justify-content-center orange">Tickets</h1>
+                <div class="row">
+                    <div class="tickets-table col-12 col-md-6 m-auto br-20 bg-light">
+                        <table class="table table-bordered">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">06-11-2021</th>
+                                    <th scope="col">06-12-2021</th>
+                                    <th scope="col">2 Days</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Normal</th>
+                                    <td class="lt-blue-clr font-weight-bold">
+                                        <input name="price" type="radio">$1,785
+                                    </td>
+                                    <td class="lt-blue-clr font-weight-bold"> <input name="price" type="radio"> $1,785
+                                    </td>
+                                    <td class="lt-blue-clr font-weight-bold"><input name="price" type="radio"> $3,490
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">VIP</th>
+                                    <td class="lt-blue-clr font-weight-bold"><input name="price" type="radio"> $2,785
+                                    </td>
+                                    <td class="lt-blue-clr font-weight-bold"><input name="price" type="radio"> $2,785
+                                    </td>
+                                    <td class="lt-blue-clr font-weight-bold"><input name="price" type="radio"> $4,000
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="br-20 bc-orange white co-btn mt-5">Get Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tickets-container bc-light overflow-hidden">
+            <div class="tickets">
+                <h1 class="cocogoose-bold d-flex justify-content-center orange">Gift</h1>
+                <div class="row">
+                    <div class="tickets-table col-12 col-md-6 m-auto br-20 bg-light">
+                        <table class="table table-bordered">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">T-Shirt</th>
+                                    <th scope="col">Bottle</th>
+                                    <th scope="col">Bag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Select</th>
+                                    <td class="lt-blue-clr font-weight-bold m-auto">
+                                        <input name="radio" type="radio">
+                                    </td>
+                                    <td class="lt-blue-clr font-weight-bold"> <input name="radio" type="radio"></td>
+                                    <td class="lt-blue-clr font-weight-bold"><input name="radio" type="radio"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="br-20 bc-orange white co-btn mt-5">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- SPONSORED -->
+    <footer>
+        <div class="footer bc-gray overflow-hidden">
+            <ul class="d-flex justify-content-center">
+
+                <li>
+                    <img class="sponsor" src="./src/assets/CocaCola.png" alt="sponsor">
+                </li>
+                <li>
+                    <img class="sponsor" src="./src/assets/Uber.png" alt="sponsor">
+                </li>
+                <li>
+                    <img class="sponsor" src="./src/assets/instacart.png" alt="sponsor">
+                </li>
+                <li>
+                    <img class="sponsor" src="./src/assets/spotify.png" alt="sponsor">
+                </li>
+                <li>
+                    <img class="sponsor" src="./src/assets/Levis.png" alt="sponsor">
+                </li>
+            </ul>
+            <div class="d-flex align-items-end">
+                <a class="font-weight-bold ml-3 light footer-logo" href="./index.html">MUSIC</a>
+                <p class="light d-flex align-items-end m-2">© 2020 MUSIC FESTIVAL </p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

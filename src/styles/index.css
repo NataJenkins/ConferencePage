@@ -1,0 +1,219 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(./fonts/Cocogoose-Light.ttf);
+}
+
+@font-face {
+  font-family: Cocogoose-bold;
+  src: url(./fonts/Cocogoose-pro.ttf);
+}
+
+.kanit {
+  font-family:
+    'Kanit',
+    sans-serif;
+}
+
+.lato {
+  font-family:
+    'Lato',
+    sans-serif;
+}
+
+.cocogoose {
+  font-family: Cocogoose, sans-serif;
+}
+
+.cocogoose-bold {
+  font-family: Cocogoose-bold, sans-serif;
+}
+
+.bc-gray {
+  background-color: #272a31;
+}
+
+.bc-light {
+  background-color: #d3d3d3;
+}
+
+.bc-orange {
+  background-color: #ec5242;
+}
+
+.gray {
+  color: #272a31;
+}
+
+.light-gray {
+  color: #494a4d;
+}
+
+.light {
+  color: #d3d3d3;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.white {
+  color: white;
+}
+
+/* END OF GLOBAL VARIABLES */
+
+ul {
+  list-style: none;
+}
+
+.nav-logo {
+  font-size: 30px;
+}
+
+.light-navbar {
+  height: 70px;
+}
+
+.light-navbar ul a {
+  color: #272a31;
+}
+
+.light-navbar ul a span {
+  border-radius: 10px;
+}
+
+.gt-btn {
+  padding: 5px 10px;
+}
+
+/* MAIN */
+.main-text {
+  font-size: 10vw;
+  background-image: url(../assets/text-background.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.date {
+  font-size: 6vw;
+  display: flex;
+  justify-content: right;
+}
+
+/* AMENITIE */
+.amenities .card {
+  background-color: rgba(255, 255, 255, 0.253);
+}
+
+.amenities .card .fas {
+  font-size: 23px;
+}
+
+.amenities .card .fab {
+  font-size: 23px;
+}
+
+/* Featured Bands */
+
+.img-container {
+  height: 150px;
+  width: 150px;
+}
+
+.pattern {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.band {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Footer */
+.sponsor {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.footer-logo {
+  font-size: 2rem;
+}
+
+footer ul {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  padding-left: 0;
+  display: flex;
+}
+
+footer li {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Tickets */
+
+.tickets {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.co-btn {
+  border: none;
+  padding: 10px 20px;
+}
+
+.tickets-text {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.tickets-table {
+  padding: 3rem 5rem;
+}
+
+/* about */
+.about {
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 432px) {
+  .amenities-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sponsor {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+  }
+
+  .tickets-table {
+    padding-bottom: 30px;
+  }
+}
